@@ -25,18 +25,20 @@ If the entries are not validated by the application, users can also enter custom
             'tokenizer',
             'dialog',
             'bar',
-            'input'
+            'input',
+            'layout-grid'
         ]
     }
 };
 
-export const cozyAndCompact = () => `<div style="display:flex;height:310px">
-    <div style="display:flex;flex-direction:column;padding-right:1rem">
-        <label class="fd-form-label" for="multiComboBoxCozyModeInput">
+export const cozyAndCompact = () => `<div class="fd-container">
+    <div class="fd-row">
+	<div class="fd-col fd-col--6">
+        <label class="fd-form-label">
             Multi ComboBox Cozy Mode
         </label>
         <div class="fd-popover">
-            <div class="fd-popover__control" aria-controls="F4GcX348a" aria-expanded="true" aria-haspopup="true">
+            <div class="fd-popover__control" role="combobox" aria-controls="F4GcX348a" aria-expanded="true" aria-haspopup="true">
                 <div class="fd-input-group fd-input-group--control">
                     <div class="fd-tokenizer">
                         <div class="fd-tokenizer__inner">
@@ -64,7 +66,7 @@ export const cozyAndCompact = () => `<div style="display:flex;height:310px">
                                 </span>
                                 <button class="fd-token__close"></button>
                             </span>
-                            <input class="fd-input fd-input-group__input fd-tokenizer__input" role="combobox" aria-expanded="true" aria-haspopup="listbox" />
+                            <input class="fd-input fd-input-group__input fd-tokenizer__input"/>
                         </div>
                     </div>
                     <span class="fd-input-group__addon fd-input-group__addon--button">
@@ -122,13 +124,13 @@ export const cozyAndCompact = () => `<div style="display:flex;height:310px">
             </div>
         </div>
     </div>
-    <div style="display:flex;flex-direction:column">
+    <div class="fd-col fd-col--6">
         <label class="fd-form-label">
             Multi ComboBox Compact Mode
         </label>
 
         <div class="fd-popover">
-            <div class="fd-popover__control" aria-controls="F4GcX34a" aria-expanded="true" aria-haspopup="true">
+            <div class="fd-popover__control" role="combobox" aria-controls="F4GcX34a" aria-expanded="true" aria-haspopup="true">
                 <div class="fd-input-group fd-input-group--control">
                     <div class="fd-tokenizer fd-tokenizer--compact">
                         <div class="fd-tokenizer__inner">
@@ -209,18 +211,13 @@ export const cozyAndCompact = () => `<div style="display:flex;height:310px">
         </div>
     </div>
 </div>
+</div>
 `;
 
-cozyAndCompact.parameters = {
-    docs: {
-        iframeHeight: 350
-    }
-};
-
-export const asFormItem = () => `<div style="height:310px">
+export const asFormItem = () => `<div>
     <div class="fd-form-item">
     <div class="fd-popover">
-        <div class="fd-popover__control" aria-controls="F4GcX348a" aria-expanded="true" aria-haspopup="true">
+        <div class="fd-popover__control" role="combobox" aria-controls="F4GcX348a" aria-expanded="true" aria-haspopup="true">
             <div class="fd-input-group fd-input-group--control">
                 <div class="fd-tokenizer">
                     <div class="fd-tokenizer__inner">
@@ -311,7 +308,6 @@ export const asFormItem = () => `<div style="height:310px">
 
 asFormItem.parameters = {
     docs: {
-        iframeHeight: 900,
         storyDescription: `
 Note that the popover body width is restricted to a max of 37.5rem to avoid readability issues in large-width popovers.
 Applications are free to override this in their custom styles if needed and own any readability issues arising from this override.
@@ -319,9 +315,9 @@ Applications are free to override this in their custom styles if needed and own 
     }
 };
 
-export const grouping = () => `<div style="height:450px">
+export const grouping = () => `<div>
     <div class="fd-popover">
-        <div class="fd-popover__control" aria-controls="F4H8X34a" aria-expanded="true" aria-haspopup="true">
+        <div class="fd-popover__control" role="combobox" aria-controls="F4H8X34a" aria-expanded="true" aria-haspopup="true">
             <div class="fd-input-group fd-input-group--control">
                 <div class="fd-tokenizer">
                     <div class="fd-tokenizer__inner">
@@ -430,15 +426,14 @@ export const grouping = () => `<div style="height:450px">
 
 grouping.parameters = {
     docs: {
-        iframeHeight: 500,
         storyDescription:
             'In cases where the list items need to be categorized into groups, it is possible to add headers for each category as seen below.'
     }
 };
 
-export const matchPopoverBodySize = () => `<div style="height:270px">
+export const matchPopoverBodySize = () => `<div>
     <div class="fd-popover">
-        <div class="fd-popover__control" aria-controls="F4HGFHX34a" aria-expanded="true" aria-haspopup="true">
+        <div class="fd-popover__control" role="combobox" aria-controls="F4HGFHX34a" aria-expanded="true" aria-haspopup="true">
             <div class="fd-input-group fd-input-group--control">
                 <div class="fd-tokenizer">
                     <div class="fd-tokenizer__inner">
@@ -523,7 +518,6 @@ export const matchPopoverBodySize = () => `<div style="height:270px">
 
 matchPopoverBodySize.parameters = {
     docs: {
-        iframeHeight: 300,
         storyDescription: `
 The default length size of the popover body is often different from the text length. 
 The body length can be adjusted to match the text length by adding the \`fd-popover__body--dropdown-fill\` class to the \`fd-popover__body\`.
@@ -534,141 +528,117 @@ In the example you can see how the \`Multi ComboBox\` component looks without th
     }
 };
 
-export const readOnlyAndDisabled = () => `<div style="display:flex;height:80px;">
-    <div class="fd-popover" style="display:flex;flex-direction:column;padding-right:1rem">
-        <div class="fd-popover__control" aria-controls="F4GcX3X8a" aria-expanded="false" aria-haspopup="false">
-            <div class="fd-input-group fd-input-group--control" readonly aria-readonly="true">
-                <div class="fd-tokenizer fd-tokenizer--readonly">
-                    <div class="fd-tokenizer__inner">
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Bibendum
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Lorem
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Dolor
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Filter
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly">
-                            <span class="fd-token__text">
-                                Lorem
-                            </span>
-                        </span>
-                        <span class="fd-tokenizer__indicator">
-                            <div class="fd-popover">
-                                <div class="fd-popover__control fd-input-group__control" aria-controls="F4GF5348a" aria-expanded="false" aria-haspopup="true">
-                                    <a href="#" class="fd-link">
-                                        4 more
-                                    </a>
-                                </div>
-                                <div class="fd-popover__body" aria-hidden="true" id="F4GF5348a">
-                                    <nav class="fd-menu" id="">
-                                        <ul class="fd-menu__list fd-menu__list--no-shadow">
-                                            <li class="fd-menu__item">
-                                                <a href="#" class="fd-menu__link">
-                                                    <span class="fd-menu__title">Option 1</span>
-                                                </a>
-                                            </li>
-                                            <li class="fd-menu__item">
-                                                <a href="#" class="fd-menu__link">
-                                                    <span class="fd-menu__title">Option 2</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </span>
-                        <input class="fd-input fd-input-group__input fd-tokenizer__input" readonly aria-readonly="true" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fd-popover" style="display:flex;flex-direction:column">
-        <div class="fd-popover__control" aria-expanded="false" aria-haspopup="true" aria-disabled="true" disabled>
-            <div class="fd-input-group fd-input-group--control"  aria-disabled="true" disabled>
-                <div class="fd-tokenizer">
-                    <div class="fd-tokenizer__inner">
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Bibendum
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Lorem
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Dolor
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly" role="button">
-                            <span class="fd-token__text">
-                                Filter
-                            </span>
-                        </span>
-                        <span class="fd-token fd-token--readonly">
-                            <span class="fd-token__text">
-                                Lorem
-                            </span>
-                        </span>
-                        <span class="fd-tokenizer__indicator">
-                            <div class="fd-popover">
-                                <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX34Xa" aria-expanded="false" aria-haspopup="true">
-                                    <a href="#" class="fd-link">
-                                        4 more
-                                    </a>
-                                </div>
-                                <div class="fd-popover__body" aria-hidden="true" id="F4GcX34Xa">
-                                    <nav class="fd-menu" id="">
-                                        <ul class="fd-menu__list fd-menu__list--no-shadow">
-                                            <li class="fd-menu__item">
-                                                <a href="#" class="fd-menu__link">
-                                                    <span class="fd-menu__title">Option 1</span>
-                                                </a>
-                                            </li>
-                                            <li class="fd-menu__item">
-                                                <a href="#" class="fd-menu__link">
-                                                    <span class="fd-menu__title">Option 2</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </span>
-                        <input class="fd-input fd-input-group__input fd-tokenizer__input" />
-                    </div>
-                </div>
-                <span class="fd-input-group__addon fd-input-group__addon--button">
-                    <button tabindex="-1" class="fd-input-group__button fd-button fd-button--transparent">
-                        <i class="sap-icon--navigation-down-arrow"></i>
-                    </button>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
+export const readOnlyAndDisabled = () => `<div class="fd-container">
+	<div class="fd-row">
+		<div class="fd-col fd-col--6">
+			<div class="fd-popover">
+				<div class="fd-popover__control" role="combobox" aria-controls="F4GcX3X8a" aria-expanded="false" aria-haspopup="false">
+					<div class="fd-input-group fd-input-group--control" readonly aria-readonly="true">
+						<div class="fd-tokenizer fd-tokenizer--readonly">
+							<div class="fd-tokenizer__inner">
+								<span class="fd-token fd-token--readonly" role="button">
+									<span class="fd-token__text">
+										Bibendum
+									</span>
+								</span>
+								<span class="fd-token fd-token--readonly" role="button">
+									<span class="fd-token__text">
+										Lorem
+									</span>
+								</span>
+								<span class="fd-token fd-token--readonly" role="button">
+									<span class="fd-token__text">
+										Dolor
+									</span>
+								</span>
+								<span class="fd-token fd-token--readonly" role="button">
+									<span class="fd-token__text">
+										Filter
+									</span>
+								</span>
+								<span class="fd-token fd-token--readonly">
+									<span class="fd-token__text">
+										Lorem
+									</span>
+								</span>
+								<span class="fd-tokenizer__indicator">
+									<div class="fd-popover">
+										<div class="fd-popover__control fd-input-group__control" role="combobox" aria-controls="F4GF5348a" aria-expanded="false" aria-haspopup="true">
+											<span class="fd-tokenizer__indicator" role="button">
+												4 more
+											</span>
+										</div>
+										<div class="fd-popover__body" aria-hidden="true" id="F4GF5348a">
+										</div>
+									</div>
+								</span>
+								<input class="fd-input fd-input-group__input fd-tokenizer__input" readonly aria-readonly="true" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="fd-col fd-col--6">
+				<div class="fd-popover">
+					<div class="fd-popover__control" role="combobox" aria-expanded="false" aria-haspopup="true" aria-disabled="true" disabled>
+						<div class="fd-input-group fd-input-group--control"  aria-disabled="true" disabled>
+							<div class="fd-tokenizer">
+								<div class="fd-tokenizer__inner">
+									<span class="fd-token fd-token--readonly" role="button">
+										<span class="fd-token__text">
+											Bibendum
+										</span>
+									</span>
+									<span class="fd-token fd-token--readonly" role="button">
+										<span class="fd-token__text">
+											Lorem
+										</span>
+									</span>
+									<span class="fd-token fd-token--readonly" role="button">
+										<span class="fd-token__text">
+											Dolor
+										</span>
+									</span>
+									<span class="fd-token fd-token--readonly" role="button">
+										<span class="fd-token__text">
+											Filter
+										</span>
+									</span>
+									<span class="fd-token fd-token--readonly">
+										<span class="fd-token__text">
+											Lorem
+										</span>
+									</span>
+									<span class="fd-tokenizer__indicator">
+										<div class="fd-popover">
+											<div class="fd-popover__control fd-input-group__control" aria-controls="F4GcX34Xa" aria-expanded="false" aria-haspopup="true">
+												<span class="fd-tokenizer__indicator" role="button>
+													4 more
+												</span>
+											</div>
+											<div class="fd-popover__body" aria-hidden="true" id="F4GcX34Xa">
+											</div>
+										</div>
+									</span>
+									<input class="fd-input fd-input-group__input fd-tokenizer__input" />
+								</div>
+							</div>
+							<span class="fd-input-group__addon fd-input-group__addon--button">
+								<button tabindex="-1" class="fd-input-group__button fd-button fd-button--transparent">
+									<i class="sap-icon--navigation-down-arrow"></i>
+								</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 `;
 
 readOnlyAndDisabled.parameters = {
     docs: {
-        iframeHeight: 100,
         storyDescription: `
 To make the \`Multi ComboBox\` component read-only, the readonly attribute needs to be added to the \`fd-nput-group\` element.
 This can also be done by using the \`.is-readonly\` class or \`aria-readonly="true"\` attribute.
@@ -679,9 +649,9 @@ The disabled state can also be achieved by adding the \`.is-disabled\` class or 
     }
 };
 
-export const semantic = () => `<div style="height:300px">
+export const semantic = () => `<div>
 <div class="fd-popover">
-    <div class="fd-popover__control fd-input-group__control" aria-controls="F4GcKJH8a" aria-expanded="true" aria-haspopup="true">
+    <div class="fd-popover__control fd-input-group__control" role="combobox" aria-controls="F4GcKJH8a" aria-expanded="true" aria-haspopup="true">
         <div class="fd-input-group fd-input-group--control is-success">
             <div class="fd-tokenizer">
                  <div class="fd-tokenizer__inner">
@@ -759,7 +729,6 @@ export const semantic = () => `<div style="height:300px">
 
 semantic.parameters = {
     docs: {
-        iframeHeight: 350,
         storyDescription: `
 For a complete list of states supported by the \`Multi ComboBox\` component, please see the documentation for the form or select components.
 
@@ -879,7 +848,6 @@ export const mobileMode = () => `<div class="fd-dialog fd-dialog-docs-static fd-
 
 mobileMode.parameters = {
     docs: {
-        iframeHeight: 450,
         storyDescription: `
 For mobile devices, or tablets, Multi ComboBox component should be displayed in fullscreen mode.
 So instead of using popover and dropdown, it should be wrapped in \`dialog\` and \`bar\` components.`
@@ -887,7 +855,7 @@ So instead of using popover and dropdown, it should be wrapped in \`dialog\` and
 };
 
 export const filtering = () => `<div class="fd-popover">
-    <div class="fd-popover__control" aria-controls="F4GcX348aB" aria-expanded="true" aria-haspopup="true">
+    <div class="fd-popover__control" role="combobox" aria-controls="F4GcX348aB" aria-expanded="true" aria-haspopup="true">
         <div class="fd-input-group fd-input-group--control">
             <div class="fd-tokenizer">
                 <div class="fd-tokenizer__inner">
@@ -946,8 +914,8 @@ export const filtering = () => `<div class="fd-popover">
                 </label>
             </li>
         </ul>
-        <span class="fd-list__footer fd-list__footer_right">
-          <a class="fd-link" href="#">Show All(4)</a>
+        <span class="fd-list__footer fd-list__footer--right">
+          <a class="fd-tokenizer__indicator" role="button>Show All(4)</a>
         </span>
     </div>
 </div>
@@ -955,7 +923,6 @@ export const filtering = () => `<div class="fd-popover">
 
 filtering.parameters = {
     docs: {
-        iframeHeight: 500,
         storyDescription: `
 The user can filter selectable options by typing in the input. A button with the text "Show All" should be displayed, that when clicked, will clear the text in the input and show all options in the list.`
     }

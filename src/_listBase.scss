@@ -166,11 +166,11 @@
     font-size: $fd-list-normal-font-size;
     height: 2rem;
 
-    &_right {
+    &--right {
       float: right;
     }
 
-    &_left {
+    &--left {
       float: left;
     }
   }

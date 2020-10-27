@@ -19,6 +19,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
         aria-expanded="true"
         aria-haspopup="true"
         class="fd-popover__control"
+        role="combobox"
       >
         
             
@@ -414,6 +415,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
           aria-expanded="true"
           aria-haspopup="true"
           class="fd-popover__control"
+          role="combobox"
         >
           
                 
@@ -526,10 +528,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                 
                             
                 <input
-                  aria-expanded="true"
-                  aria-haspopup="listbox"
                   class="fd-input fd-input-group__input fd-tokenizer__input"
-                  role="combobox"
                 />
                 
                         
@@ -801,6 +800,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
           aria-expanded="true"
           aria-haspopup="true"
           class="fd-popover__control"
+          role="combobox"
         >
           
                 
@@ -1151,6 +1151,7 @@ exports[`Storyshots Patterns/Multi ComboBox Filtering 1`] = `
     aria-expanded="true"
     aria-haspopup="true"
     class="fd-popover__control"
+    role="combobox"
   >
     
         
@@ -1417,20 +1418,8 @@ exports[`Storyshots Patterns/Multi ComboBox Filtering 1`] = `
     >
       
           
-      <a
-        class="fd-link"
-        href="#"
-      >
-        Show All(4)
-      </a>
-      
-        
     </span>
-    
-    
   </div>
-  
-
 </div>
 `;
 
@@ -1448,6 +1437,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
       aria-expanded="true"
       aria-haspopup="true"
       class="fd-popover__control"
+      role="combobox"
     >
       
             
@@ -1906,6 +1896,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
       aria-expanded="true"
       aria-haspopup="true"
       class="fd-popover__control"
+      role="combobox"
     >
       
             
@@ -2743,6 +2734,7 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
           aria-expanded="false"
           aria-haspopup="false"
           class="fd-popover__control"
+          role="combobox"
         >
           
 					
@@ -2867,11 +2859,13 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
                       aria-expanded="false"
                       aria-haspopup="true"
                       class="fd-popover__control fd-input-group__control"
+                      role="combobox"
                     >
                       
 											
                       <span
-                        class="fd-link"
+                        class="fd-tokenizer__indicator"
+                        role="button"
                       >
                         
 												4 more
@@ -2939,6 +2933,7 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
           aria-haspopup="true"
           class="fd-popover__control"
           disabled=""
+          role="combobox"
         >
           
 						
@@ -3067,24 +3062,19 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
                       
 												
                       <span
-                        class="fd-link"
+                        aria-hidden="true"
+                        class="fd-tokenizer__indicator"
+                        fd-popover__body"=""
+                        id="F4GcX34Xa"
+                        role="button>
+													4 more
+												</span>
+											</div>
+											<div class="
                       >
                         
-													4 more
-												
+											
                       </span>
-                      
-											
-                    </div>
-                    
-											
-                    <div
-                      aria-hidden="true"
-                      class="fd-popover__body"
-                      id="F4GcX34Xa"
-                    >
-                      
-											
                     </div>
                     
 										
@@ -3159,6 +3149,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
       aria-expanded="true"
       aria-haspopup="true"
       class="fd-popover__control fd-input-group__control"
+      role="combobox"
     >
       
         

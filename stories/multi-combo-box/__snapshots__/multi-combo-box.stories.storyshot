@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
-<div>
+<div
+  style="height: 300px;"
+>
   
     
   <div
@@ -383,6 +385,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
 exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
 <div
   class="fd-container"
+  style="height: 300px;"
 >
   
     
@@ -1140,291 +1143,12 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
 </div>
 `;
 
-exports[`Storyshots Patterns/Multi ComboBox Filtering 1`] = `
-<div
-  class="fd-popover"
->
-  
-    
-  <div
-    aria-controls="F4GcX348aB"
-    aria-expanded="true"
-    aria-haspopup="true"
-    class="fd-popover__control"
-    role="combobox"
-  >
-    
-        
-    <div
-      class="fd-input-group fd-input-group--control"
-    >
-      
-            
-      <div
-        class="fd-tokenizer"
-      >
-        
-                
-        <div
-          class="fd-tokenizer__inner"
-        >
-          
-                    
-          <span
-            class="fd-token"
-            role="button"
-          >
-            
-                        
-            <span
-              class="fd-token__text"
-            >
-              
-                            Apple
-                        
-            </span>
-            
-                        
-            <button
-              class="fd-token__close"
-            />
-            
-                    
-          </span>
-          
-                    
-          <span
-            class="fd-token"
-            role="button"
-          >
-            
-                        
-            <span
-              class="fd-token__text"
-            >
-              
-                            Orange
-                        
-            </span>
-            
-                        
-            <button
-              class="fd-token__close"
-            />
-            
-                    
-          </span>
-          
-                    
-          <span
-            class="fd-token"
-            role="button"
-          >
-            
-                        
-            <span
-              class="fd-token__text"
-            >
-              
-                            Banana
-                        
-            </span>
-            
-                        
-            <button
-              class="fd-token__close"
-            />
-            
-                    
-          </span>
-          
-                    
-          <input
-            class="fd-input fd-input-group__input fd-tokenizer__input"
-            value="A"
-          />
-          
-                
-        </div>
-        
-            
-      </div>
-      
-            
-      <span
-        class="fd-input-group__addon fd-input-group__addon--button"
-      >
-        
-                
-        <button
-          aria-controls="F4GcX348aB"
-          aria-expanded="false"
-          aria-haspopup="true"
-          class="fd-input-group__button fd-button fd-button--transparent"
-        >
-          
-                    
-          <i
-            class="sap-icon--navigation-down-arrow"
-          />
-          
-                
-        </button>
-        
-            
-      </span>
-      
-        
-    </div>
-    
-    
-  </div>
-  
-    
-  <div
-    aria-hidden="false"
-    class="fd-popover__body fd-popover__body--no-arrow fd-popover__body--dropdown fd-popover__body--dropdown-fill"
-    id="F4GcX348aB"
-  >
-    
-        
-    <ul
-      class="fd-list fd-list--multi-input"
-    >
-      
-             
-      <li
-        class="fd-list__item is-selected"
-        role="option"
-      >
-        
-                
-        <input
-          checked=""
-          class="fd-checkbox fd-list__input"
-          id="Ai4ez611A"
-          type="checkbox"
-        />
-        
-                
-        <label
-          class="fd-checkbox__label fd-list__label"
-          for="Ai4ez611A"
-        >
-          
-                    
-          <span
-            class="fd-checkbox__text fd-list__title"
-          >
-            
-                        
-            <b>
-              A
-            </b>
-            pple
-                    
-          </span>
-          
-                
-        </label>
-        
-            
-      </li>
-      
-             
-      <li
-        class="fd-list__item is-selected"
-        role="option"
-      >
-        
-                
-        <input
-          checked=""
-          class="fd-checkbox fd-list__input"
-          id="Ai4ez612A"
-          type="checkbox"
-        />
-        
-                
-        <label
-          class="fd-checkbox__label fd-list__label"
-          for="Ai4ez612A"
-        >
-          
-                    
-          <span
-            class="fd-list__title"
-          >
-            
-                        Or
-            <b>
-              a
-            </b>
-            nge
-                    
-          </span>
-          
-                
-        </label>
-        
-            
-      </li>
-      
-             
-      <li
-        class="fd-list__item is-selected"
-        role="option"
-      >
-        
-                
-        <input
-          checked=""
-          class="fd-checkbox fd-list__input"
-          id="Ai4ez614A"
-          type="checkbox"
-        />
-        
-                
-        <label
-          class="fd-checkbox__label fd-list__label"
-          for="Ai4ez614A"
-        >
-          
-                    
-          <span
-            class="fd-list__title"
-          >
-            
-                        B
-            <b>
-              a
-            </b>
-            nana
-                    
-          </span>
-          
-                
-        </label>
-        
-            
-      </li>
-      
-        
-    </ul>
-    
-        
-    <span
-      class="fd-list__footer fd-list__footer--right"
-    >
-      
-          
-    </span>
-  </div>
-</div>
-`;
+exports[`Storyshots Patterns/Multi ComboBox Filtering 1`] = ` `;
 
 exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
-<div>
+<div
+  style="height: 400px;"
+>
   
     
   <div
@@ -1883,7 +1607,9 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
 `;
 
 exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
-<div>
+<div
+  style="height: 300px;"
+>
   
     
   <div
@@ -3136,7 +2862,9 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
 `;
 
 exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
-<div>
+<div
+  style="height: 300px;"
+>
   
 
   <div

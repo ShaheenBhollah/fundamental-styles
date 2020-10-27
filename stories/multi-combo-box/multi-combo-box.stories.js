@@ -26,12 +26,13 @@ If the entries are not validated by the application, users can also enter custom
             'dialog',
             'bar',
             'input',
-            'layout-grid'
+            'layout-grid',
+            'link'
         ]
     }
 };
 
-export const cozyAndCompact = () => `<div class="fd-container">
+export const cozyAndCompact = () => `<div class="fd-container" style="height: 300px;">
     <div class="fd-row">
 	<div class="fd-col fd-col--6">
         <label class="fd-form-label">
@@ -214,7 +215,7 @@ export const cozyAndCompact = () => `<div class="fd-container">
 </div>
 `;
 
-export const asFormItem = () => `<div>
+export const asFormItem = () => `<div style="height: 300px;">
     <div class="fd-form-item">
     <div class="fd-popover">
         <div class="fd-popover__control" role="combobox" aria-controls="F4GcX348a" aria-expanded="true" aria-haspopup="true">
@@ -315,7 +316,7 @@ Applications are free to override this in their custom styles if needed and own 
     }
 };
 
-export const grouping = () => `<div>
+export const grouping = () => `<div style="height: 400px;">
     <div class="fd-popover">
         <div class="fd-popover__control" role="combobox" aria-controls="F4H8X34a" aria-expanded="true" aria-haspopup="true">
             <div class="fd-input-group fd-input-group--control">
@@ -431,7 +432,7 @@ grouping.parameters = {
     }
 };
 
-export const matchPopoverBodySize = () => `<div>
+export const matchPopoverBodySize = () => `<div style="height: 300px;">
     <div class="fd-popover">
         <div class="fd-popover__control" role="combobox" aria-controls="F4HGFHX34a" aria-expanded="true" aria-haspopup="true">
             <div class="fd-input-group fd-input-group--control">
@@ -649,7 +650,7 @@ The disabled state can also be achieved by adding the \`.is-disabled\` class or 
     }
 };
 
-export const semantic = () => `<div>
+export const semantic = () => `<div style="height: 300px;">
 <div class="fd-popover">
     <div class="fd-popover__control fd-input-group__control" role="combobox" aria-controls="F4GcKJH8a" aria-expanded="true" aria-haspopup="true">
         <div class="fd-input-group fd-input-group--control is-success">
@@ -854,7 +855,8 @@ So instead of using popover and dropdown, it should be wrapped in \`dialog\` and
     }
 };
 
-export const filtering = () => `<div class="fd-popover">
+export const filtering = () => ` <div style="height: 250px;">
+<div class="fd-popover">
     <div class="fd-popover__control" role="combobox" aria-controls="F4GcX348aB" aria-expanded="true" aria-haspopup="true">
         <div class="fd-input-group fd-input-group--control">
             <div class="fd-tokenizer">
@@ -915,9 +917,10 @@ export const filtering = () => `<div class="fd-popover">
             </li>
         </ul>
         <span class="fd-list__footer fd-list__footer--right">
-          <a class="fd-tokenizer__indicator" role="button>Show All(4)</a>
+        <a class="fd-link" role="button" >Show All</a>
         </span>
-    </div>
+    </div
+</div>
 </div>
 `;
 

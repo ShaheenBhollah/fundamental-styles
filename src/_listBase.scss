@@ -167,11 +167,11 @@
     height: 2rem;
 
     &--right {
-      float: right;
+      justify-content: flex-end;
     }
 
     &--left {
-      float: left;
+      justify-content: flex-start;
     }
   }
 

@@ -27,6 +27,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             
         <div
           class="fd-input-group fd-input-group--control"
+          tabindex="0"
         >
           
                 
@@ -193,6 +194,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             <li
               class="fd-list__item is-selected"
               role="option"
+              tabindex="0"
             >
               
                     
@@ -228,6 +230,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             <li
               class="fd-list__item is-selected"
               role="option"
+              tabindex="0"
             >
               
                     
@@ -235,6 +238,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
                 checked=""
                 class="fd-checkbox fd-list__input"
                 id="Ai4ez612"
+                tabindex="-1"
                 type="checkbox"
               />
               
@@ -263,6 +267,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             <li
               class="fd-list__item is-selected"
               role="option"
+              tabindex="0"
             >
               
                     
@@ -270,6 +275,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
                 checked=""
                 class="fd-checkbox fd-list__input"
                 id="Ai4ez614"
+                tabindex="-1"
                 type="checkbox"
               />
               
@@ -298,6 +304,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             <li
               class="fd-list__item is-selected"
               role="option"
+              tabindex="0"
             >
               
                     
@@ -305,6 +312,7 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
                 checked=""
                 class="fd-checkbox fd-list__input"
                 id="Ai4ez615"
+                tabindex="-1"
                 type="checkbox"
               />
               
@@ -333,12 +341,14 @@ exports[`Storyshots Patterns/Multi ComboBox As Form Item 1`] = `
             <li
               class="fd-list__item"
               role="option"
+              tabindex="0"
             >
               
                     
               <input
                 class="fd-checkbox fd-list__input"
                 id="Ai4ez617"
+                tabindex="-1"
                 type="checkbox"
               />
               
@@ -424,6 +434,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                 
           <div
             class="fd-input-group fd-input-group--control"
+            tabindex="0"
           >
             
                     
@@ -593,6 +604,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                 aria-selected="true"
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -600,6 +612,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-list__input"
                   id="Ai4ez611"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -628,6 +641,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -635,6 +649,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-list__input"
                   id="Ai4ez612"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -663,6 +678,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -670,6 +686,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-list__input"
                   id="Ai4ez614"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -698,12 +715,14 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__itemxs"
                 role="option"
+                tabindex="0"
               >
                 
                         
                 <input
                   class="fd-checkbox fd-list__input"
                   id="Ai4ez615"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -732,12 +751,14 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item"
                 role="option"
+                tabindex="0"
               >
                 
                         
                 <input
                   class="fd-checkbox fd-list__input"
                   id="Ai4ez617"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -809,6 +830,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                 
           <div
             class="fd-input-group fd-input-group--control"
+            tabindex="0"
           >
             
                     
@@ -952,6 +974,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -959,6 +982,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-checkbox--compact fd-list__input"
                   id="Ai1ez611"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -987,6 +1011,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -994,6 +1019,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-checkbox--compact fd-list__input"
                   id="Ai2ez612"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -1022,6 +1048,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item is-selected"
                 role="option"
+                tabindex="0"
               >
                 
                         
@@ -1029,6 +1056,7 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
                   checked=""
                   class="fd-checkbox fd-checkbox--compact fd-list__input"
                   id="Ai3ez614"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -1057,12 +1085,14 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item"
                 role="option"
+                tabindex="0"
               >
                 
                         
                 <input
                   class="fd-checkbox fd-checkbox--compact fd-list__input"
                   id="Ai8ez615"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -1091,12 +1121,14 @@ exports[`Storyshots Patterns/Multi ComboBox Cozy And Compact 1`] = `
               <li
                 class="fd-list__item"
                 role="option"
+                tabindex="0"
               >
                 
                         
                 <input
                   class="fd-checkbox fd-checkbox--compact fd-list__input"
                   id="AiHez617"
+                  tabindex="-1"
                   type="checkbox"
                 />
                 
@@ -1167,6 +1199,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
             
       <div
         class="fd-input-group fd-input-group--control"
+        tabindex="0"
       >
         
                 
@@ -1330,6 +1363,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1337,6 +1371,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai1ez651"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1365,6 +1400,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1372,6 +1408,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai2ez652"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1400,6 +1437,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1407,6 +1445,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai3ez654"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1435,12 +1474,14 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item"
             role="option"
+            tabindex="0"
           >
             
                     
             <input
               class="fd-checkbox fd-list__input"
               id="Ai8ez655"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1469,12 +1510,14 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item"
             role="option"
+            tabindex="0"
           >
             
                     
             <input
               class="fd-checkbox fd-list__input"
               id="AiHez657"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1524,6 +1567,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1531,6 +1575,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai8ez689"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1559,6 +1604,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1566,6 +1612,7 @@ exports[`Storyshots Patterns/Multi ComboBox Grouping 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai8ez685"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1628,6 +1675,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
             
       <div
         class="fd-input-group fd-input-group--control"
+        tabindex="0"
       >
         
                 
@@ -1778,6 +1826,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1785,6 +1834,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai124z651"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1813,6 +1863,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1820,6 +1871,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai134z651"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1848,6 +1900,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                     
@@ -1855,6 +1908,7 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai1366z651"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1883,12 +1937,14 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
           <li
             class="fd-list__item"
             role="option"
+            tabindex="0"
           >
             
                     
             <input
               class="fd-checkbox fd-list__input"
               id="Ai136gf51"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -1917,12 +1973,14 @@ exports[`Storyshots Patterns/Multi ComboBox Match Popover Body Size 1`] = `
           <li
             class="fd-list__item"
             role="option"
+            tabindex="0"
           >
             
                     
             <input
               class="fd-checkbox fd-list__input"
               id="Ai136ggfd"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -2055,6 +2113,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
                     
           <div
             class="fd-input-group"
+            tabindex="0"
           >
             
                         
@@ -2229,6 +2288,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
         <li
           class="fd-list__item is-selected"
           role="option"
+          tabindex="0"
         >
           
                      
@@ -2236,6 +2296,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
             checked=""
             class="fd-checkbox  fd-list__input"
             id="GGi4ez641"
+            tabindex="-1"
             type="checkbox"
           />
           
@@ -2264,6 +2325,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
         <li
           class="fd-list__item is-selected"
           role="option"
+          tabindex="0"
         >
           
                      
@@ -2271,6 +2333,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
             checked=""
             class="fd-checkbox  fd-list__input"
             id="Ai4FGFG612"
+            tabindex="-1"
             type="checkbox"
           />
           
@@ -2297,6 +2360,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
         <li
           class="fd-list__item is-selected"
           role="option"
+          tabindex="0"
         >
           
                      
@@ -2304,6 +2368,7 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
             checked=""
             class="fd-checkbox  fd-list__input"
             id="Ai4e88614"
+            tabindex="-1"
             type="checkbox"
           />
           
@@ -2330,12 +2395,14 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
         <li
           class="fd-list__item"
           role="option"
+          tabindex="0"
         >
           
                      
           <input
             class="fd-checkbox  fd-list__input"
             id="Ai4egh6024"
+            tabindex="-1"
             type="checkbox"
           />
           
@@ -2362,12 +2429,14 @@ exports[`Storyshots Patterns/Multi ComboBox Mobile Mode 1`] = `
         <li
           class="fd-list__item"
           role="option"
+          tabindex="0"
         >
           
                      
           <input
             class="fd-checkbox  fd-list__input"
             id="7gJHdsad"
+            tabindex="-1"
             type="checkbox"
           />
           
@@ -2468,6 +2537,7 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
             aria-readonly="true"
             class="fd-input-group fd-input-group--control"
             readonly=""
+            tabindex="0"
           >
             
 						
@@ -2667,6 +2737,7 @@ exports[`Storyshots Patterns/Multi ComboBox Read Only And Disabled 1`] = `
             aria-disabled="true"
             class="fd-input-group fd-input-group--control"
             disabled=""
+            tabindex="0"
           >
             
 							
@@ -2883,6 +2954,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
         
       <div
         class="fd-input-group fd-input-group--control is-success"
+        tabindex="0"
       >
         
             
@@ -3040,6 +3112,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
           <li
             class="fd-list__item is-selected"
             role="option"
+            tabindex="0"
           >
             
                 
@@ -3047,6 +3120,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="AGi4ez611"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -3082,6 +3156,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai4Fez612"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -3115,6 +3190,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
               checked=""
               class="fd-checkbox fd-list__input"
               id="Ai4eGz614"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -3147,6 +3223,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
             <input
               class="fd-checkbox fd-list__input"
               id="Ai4egh614"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -3179,6 +3256,7 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
             <input
               class="fd-checkbox fd-list__input"
               id="jdFffsd3"
+              tabindex="-1"
               type="checkbox"
             />
             
@@ -3216,3 +3294,5 @@ exports[`Storyshots Patterns/Multi ComboBox Semantic 1`] = `
 
 </div>
 `;
+
+exports[`Storyshots Patterns/Multi ComboBox Two Column Combo Box 1`] = ` `;

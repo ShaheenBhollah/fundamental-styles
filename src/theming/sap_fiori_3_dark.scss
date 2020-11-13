@@ -110,4 +110,8 @@
 
   /** Badge on Button */
   --fdBadgeButton_Border_Color: var(--sapContent_BadgeBackground);
+
+  /** Flexible Column Layout */
+  --fdFlexibleColumnLayoutToggleImageColor: var(--sapHighlightColor);
+  --fdFlexibleColumnLayoutBorder: none;
 }

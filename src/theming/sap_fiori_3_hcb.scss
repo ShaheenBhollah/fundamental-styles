@@ -110,4 +110,8 @@
 
   /** Badge on Button */
   --fdBadgeButton_Border_Color: var(--sapGroup_ContentBorderColor);
+
+  /** Flexible Column Layout */
+  --fdFlexibleColumnLayoutToggleImageColor: var(--sapObjectHeader_BorderColor);
+  --fdFlexibleColumnLayoutBorder: solid 0.0625rem var(--sapGroup_ContentBorderColor)
 }

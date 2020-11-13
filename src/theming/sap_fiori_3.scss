@@ -110,4 +110,8 @@
 
   /* Form Header */
   --fdFormHeader_Border_Width: var(--sapList_BorderWidth);
+
+  /** Flexible Column Layout */
+  --fdFlexibleColumnLayoutToggleImageColor: var(--sapHighlightColor);
+  --fdFlexibleColumnLayoutBorder: none;
 }
